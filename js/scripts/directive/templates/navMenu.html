@@ -1,0 +1,24 @@
+<section class="right-small">
+    <a class="right-off-canvas-toggle menu-icon"
+       data-ng-click="arrow = !arrow"
+       data-ng-init='arrow = false'><data-ng-hamburger-helper  arrow-when="arrow"></data-ng-hamburger-helper></a>
+</section>
+ <aside class="right-off-canvas-menu">
+    <div class="navbar-inner">
+
+            <ul class="nav off-canvas-list"  data-active-link>
+                <li>
+                    <a data-ng-href="home" data-ng-click="arrow = !arrow" data-ng-init='arrow = false'>Home</a>
+                </li>
+                <li>
+                    <a data-ng-href="about" data-ng-click="arrow = !arrow" data-ng-init='arrow = false'>About</a>
+                </li>
+                <li>
+                    <a data-ng-href="portfolio" data-ng-click="arrow = !arrow" data-ng-init='arrow = false'>Portfolio</a>
+                </li>
+                <li>
+                    <a data-ng-href="contact" data-ng-click="arrow = !arrow" data-ng-init='arrow = false'>Contact</a>
+                </li>
+            </ul>
+    </div>
+</aside>

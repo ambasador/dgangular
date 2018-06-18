@@ -1,0 +1,40 @@
+<div class="main-content" page>
+    <div class="lead">
+        <strong>{{title}}</strong>
+    </div>
+     <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">Contact Form</h2>
+            </div>
+            <div class="panel-body">
+                <form method="post" name="form" role="form" ng-submit="form.$valid && sendMessage(input)" novalidate>
+                    <p ng-show="success">Thanks for getting in touch!</p>
+                    <p ng-show="error">Something wrong happened!, please try again.</p>
+                    <legend>Contact</legend>
+                    <fieldset>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" ng-model="input.name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" ng-model="input.email" required>
+                        </div>
+                        <div>
+                            <label for="messsage">Message:</label>
+                            <textarea id="messsage" name="message" ng-model="input.message" required></textarea>
+                        </div>
+                        <div>
+                            <label for="honeypot">I promise I'm not a bot</label>
+                            <input type="text" id="honeypot" name="honeypot" ng-model="input.honeyPot">
+                        </div>
+                    </fieldset>
+                    <button type="submit" name="submit" value="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    <div id="map-canvas" style="height: 300px"></div>
+
+</div>
+<div class="footer" nav-footer></div>
+

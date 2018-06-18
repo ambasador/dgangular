@@ -1,0 +1,56 @@
+<div>
+<div class="svg-wrap">
+    <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-left-5" d="M48 10.667q1.104 0 1.885 0.781t0.781 1.885-0.792 1.896l-16.771 16.771 16.771 16.771q0.792 0.792 0.792 1.896t-0.781 1.885-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.771-0.771-1.896t0.771-1.896l18.667-18.667q0.771-0.771 1.896-0.771zM32 10.667q1.104 0 1.885 0.781t0.781 1.885-0.792 1.896l-16.771 16.771 16.771 16.771q0.792 0.792 0.792 1.896t-0.781 1.885-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.771-0.771-1.896t0.771-1.896l18.667-18.667q0.771-0.771 1.896-0.771z" />
+    </svg>
+    <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-right-5" d="M29.333 10.667q1.104 0 1.875 0.771l18.667 18.667q0.792 0.792 0.792 1.896t-0.792 1.896l-18.667 18.667q-0.771 0.771-1.875 0.771t-1.885-0.781-0.781-1.885q0-1.125 0.771-1.896l16.771-16.771-16.771-16.771q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76zM13.333 10.667q1.104 0 1.875 0.771l18.667 18.667q0.792 0.792 0.792 1.896t-0.792 1.896l-18.667 18.667q-0.771 0.771-1.875 0.771t-1.885-0.781-0.781-1.885q0-1.125 0.771-1.896l16.771-16.771-16.771-16.771q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z" />
+    </svg>
+
+   <svg width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<path id="info" fill="#020202" d="M32,4.249c-15.402,0-27.934,12.53-27.934,27.932c0,15.403,12.531,27.934,27.934,27.934
+    c15.402,0,27.934-12.531,27.934-27.934C59.934,16.779,47.402,4.249,32,4.249z M32,57.605c-14.018,0-25.426-11.404-25.426-25.424
+    C6.574,18.162,17.982,6.756,32,6.756c14.02,0,25.428,11.405,25.428,25.425S46.02,57.605,32,57.605z M31.819,23.068
+    c-1.036,0-1.879,0.841-1.879,1.88v21.229c0,1.04,0.843,1.884,1.879,1.884c1.041,0,1.883-0.844,1.883-1.884V24.948
+    C33.702,23.909,32.857,23.068,31.819,23.068z M31.937,15.57c1.262,0,2.286,1.023,2.286,2.285s-1.023,2.285-2.286,2.285
+    s-2.285-1.023-2.285-2.285S30.675,15.57,31.937,15.57z"/>
+</svg>
+</div>
+<div>
+
+    <div class="fullPortfolio" data-ng-show="currItem.image.length" data-ng-style="{'background-image': 'url(' + currItem.image + ')'}">
+
+        <nav class="nav-slide">
+            <a class="prev" data-ng-href="portfolio/{{currItem.prev.title}}"
+               data-ng-show="currItem.prev.title.length">
+                <span class="icon-wrap"><svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-left-5"></svg></span>
+                <div> 
+                    
+                    <h3>{{currItem.prev.item}}</h3>
+                    <img ng-src="{{currItem.prev.icon}}" alt="{{currItem.prev.item}}"/>
+                   
+                </div>
+            </a>
+            <a class="next" data-ng-href="portfolio/{{currItem.next.title}}"
+               data-ng-show="currItem.next.title.length">
+                <span class="icon-wrap"><svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-right-5"></svg></span>
+                <div>
+                  
+                    <h3>{{currItem.next.item}}</h3>
+                    <img data-ng-src="{{currItem.next.icon}}" alt="{{currItem.next.item}}"/>
+                   
+                </div>
+            </a>
+        </nav>
+
+       
+    </div>
+     <a class="info"><span class="icon-wrap"><svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#info"></svg></span>
+        
+    </a>
+
+    <div class="fullPortfolioEmpty" data-ng-show="!currItem.image.length">
+        Bla, Bla, Blas
+    </div>
+</div>
+</div>

@@ -1,0 +1,23 @@
+<div>
+<div class="container-about">
+<h1 class="animate fadeInUp speed-700">{{pageTitle}}</h1>
+</div>
+
+<div class="full__container" data-ng-init="limit = 3"><figure
+        data-ng-repeat="item in items  | limitTo: limit as results"
+        class="item" >
+    <a data-ng-href="portfolio/{{item.title}}">
+		<div class="front" data-ng-style="{'background-image': 'url(' + item.thumb + ')'}"></div>
+    </a>
+    <div class="back">
+        <h2>{{item.item}}</h2>
+        <p>{{item.description}}</p>
+        <a data-ng-href="portfolio/{{::item.title}}">View more</a>
+    </div>
+</figure>
+    <button  class="btn gray" data-ng-hide="results.length === items.length"
+             data-ng-click="limit = items.length">pokaż wszystkie <i class="icon icon-arrow-right-black-white
+                    inline"></i></button>
+</div>
+</div>
+<div class="footer" nav-footer></div>

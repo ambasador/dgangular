@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Legend</title>
+    <base href="http://127.0.0.1/digital-angular/">
+    <link rel="stylesheet" href="css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+        <h1 class="logo"><a data-ng-href="home" class="">Digital Legend</a></h1>
+        <div data-nav-menu class="menu"></div>
+            <div class="container page-view fade {{pageClass}}" data-ng-view></div>
+        <a class="exit-off-canvas"  data-ng-click="arrow = !arrow" data-ng-init='arrow = false' data-scrollup></a>
+
+    </div>
+</div>
+<script src="js/scripts/vendors/requirejs/require.js" data-main="js/scripts/main"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-44735340-1']);
+
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
+</html>

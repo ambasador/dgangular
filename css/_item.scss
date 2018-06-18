@@ -1,0 +1,39 @@
+.item {
+  background-color: #fff;
+  &.ng-enter-stagger, &.ng-leave-stagger {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+    -webkit-transition-duration: 0;
+    transition-duration: 0;
+  }
+}
+
+.repeat-animation.ng-move-stagger {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+  -webkit-transition-duration: 0;
+  transition-duration: 0;
+}
+
+.item {
+  &.ng-enter {
+    -webkit-transition: 0.2s linear all;
+    transition: 0.2s linear all;
+    opacity: 0;
+    -webkit-transform: scale(1.05) !important;
+    transform: scale(1.05) !important;
+    &.ng-enter-active {
+      opacity: 1;
+      -webkit-transform: scale(1) !important;
+      transform: scale(1) !important;
+    }
+  }
+  &.ng-leave {
+    -webkit-transition: 0.1s linear all;
+    transition: 0.1s linear all;
+    opacity: 1;
+    &.ng-leave-active {
+      opacity: 0;
+    }
+  }
+}

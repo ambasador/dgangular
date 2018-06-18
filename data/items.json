@@ -1,0 +1,317 @@
+[{
+        "id": 1,
+        "title": "dede-event",
+        "animation" : "enter left, and hustle 100% over 1.5s",
+        "class": "small-left",
+        "description": "Dede Event Logo. Designed in Adobe Illustrator ",
+        "thumb": "./images/assets/thumbs/dedelogo.jpg",
+        "image": "./images/assets/dedelogo.jpg",
+        "item": "Dede Event",
+        "category": "logos",
+        "next": {
+            "item": "Pizza House",
+            "icon": "./images/assets/thumbs/pizza-house.jpg",
+            "title": "pizza-house"
+        }
+    }, {
+        "id": 2,
+        "title": "pizza-house",
+        "animation" : "enter left",
+        "class": "small-left",
+        "description": "Pizza House Business Card. Designed in Adobe Photoshop",
+        "thumb": "./images/assets/thumbs/pizza-house.jpg",
+        "image": "./images/assets/pizza-house.jpg",
+        "item": "Pizza House",
+        "category": "business-cards",
+        "prev": {
+            "item": "Dede Event",
+            "icon": "./images/assets/thumbs/dedelogo.jpg",
+            "title": "dede-event"
+        },
+        "next": {
+            "item": "Art House",
+            "icon": "./images/assets/thumbs/art-house.jpg",
+            "title": "art-house"
+        }
+    }, {
+        "id": 3,
+        "title": "art-house",
+        "animation" : "enter right",
+        "class": "small-left",
+        "description": "Art House Business Card. Designed in Adobe Photoshop &amp; Illustrator",
+        "thumb": "./images/assets/thumbs/art-house.jpg",
+        "image": "./images/assets/art-house.jpg",
+        "item": "Art House",
+        "category": "business-cards",
+        "prev": {
+            "item": "Pizza House",
+            "icon": "./images/assets/thumbs/pizza-house.jpg",
+            "title": "pizza-house"
+        },
+        "next": {
+            "item": "Atro Meritum",
+            "icon": "./images/assets/thumbs/atromeritum.jpg",
+            "title": "astro-meritum"
+        }
+    }, {
+        "id": 4,
+        "title": "astro-meritum",
+        "animation" : "enter from the bottom",
+        "class": "small-left",
+        "description": "Atro Meritum Logo. Designed in Adobe Photoshop",
+        "thumb": "./images/assets/thumbs/atromeritum.jpg",
+        "image": "./images/assets/atromeritum.jpg",
+        "item": "Atro Meritum",
+        "category": "logos",
+        "prev": {
+            "item": "Art House",
+            "icon": "./images/assets/thumbs/art-house.jpg",
+            "title": "art-house"
+        },
+        "next": {
+            "item": "Fabrizio Vitali",
+            "icon": "./images/assets/thumbs/fab.jpg",
+            "title": "fabrizio-vitali"
+        }
+    }, {
+        "id": 5,
+        "title": "fabrizio-vitali",
+        "animation" : "enter left",
+        "class": "small-left",
+        "description": "Fabrizio Vitali Business Card. Designed in Adobe Photoshop &amp; Illustrator",
+        "thumb": "./images/assets/thumbs/fab.jpg",
+        "image": "./images/assets/fab.jpg",
+        "item": "Fabrizio Vitali",
+        "category": "business-cards",
+        "prev": {
+            "item": "Atro Meritum",
+            "icon": "./images/assets/thumbs/atromeritum.jpg",
+            "title": "astro-meritum"
+        },
+        "next": {
+            "item": "Bisect CD Inside",
+            "icon": "./images/assets/thumbs/bisect.png",
+            "title": "bisect-cd-inside"
+        }
+    }, {
+        "id": 6,
+        "title": "bisect-cd-inside",
+         "animation" : "enter right",
+        "class": "small-left",
+        "description": "Bisect CD Inside Designed in Adobe Photoshop, Illustrator &amp; InDesign",
+        "thumb": "./images/assets/thumbs/bisect.png",
+        "image": "./images/assets/bisect.png",
+        "item": "Bisect CD Inside",
+        "category": "cd",
+        "prev": {
+            "item": "Fabrizio Vitali",
+            "icon": "./images/assets/thumbs/fab.jpg",
+            "title": "fabrizio-vitali"
+        },
+        "next": {
+            "item": "Bisect CD Cover",
+            "icon": "./images/assets/thumbs/bisect-cd.png",
+            "title": "bisect-cd"
+        }
+    }, {
+        "id": 7,
+        "title": "bisect-cd",
+        "animation" : "enter from the bottom",
+        "class": "small-left",
+        "description": "Bisect CD Cover. Designed in Adobe Photoshop",
+        "thumb": "./images/assets/thumbs/bisect-cd.png",
+        "image": "./images/assets/bisect-cd.png",
+        "item": "Bisect CD",
+        "category": "cd",
+        "prev": {
+            "item": "Bisect CD Inside",
+            "icon": "./images/assets/thumbs/bisect.png",
+            "title": "bisect-cd-inside"
+        },
+        "next": {
+            "item": "Yury Tattoo",
+            "icon": "./images/assets/thumbs/yury-bc.jpg",
+            "title": "yury-tattoo"
+        }
+    }, {
+        "id": 8,
+        "title": "yury-tattoo",
+         "animation" : "enter left",
+        "class": "small-left",
+        "description": "Yury Tattoo Business Card. Designed in Adobe Photoshop",
+        "thumb": "./images/assets/thumbs/yury-bc.jpg",
+        "image": "./images/assets/yury-bc.jpg",
+        "item": "Yury Tattoo",
+        "category": "business-cards",
+        "prev": {
+            "item": "Bisect CD Cover",
+            "icon": "./images/assets/thumbs/bisect-cd.png",
+            "title": "bisect-cd"
+        },
+        "next": {
+            "item": "Poradek",
+            "icon": "./images/assets/thumbs/poradek.png",
+            "title": "poradek"
+        }
+    }, {
+        "id": 9,
+        "title": "poradek",
+         "animation" : "enter right",
+        "class": "small-left",
+        "description": "Poradek Business Card. Designed in Adobe Photoshop &amp; Illustrator",
+        "thumb": "./images/assets/thumbs/poradek.png",
+        "image": "./images/assets/poradek.png",
+        "item": "Poradek",
+        "category": "business-cards",
+        "prev": {
+            "item": "Yury Tattoo",
+            "icon": "./images/assets/thumbs/yury-bc.jpg",
+            "title": "yury-tattoo"
+        },
+        "next": {
+            "item": "Alter Economy",
+            "icon": "./images/assets/thumbs/alter_economy.jpg",
+            "title": "alter-economy"
+        }
+    }, {
+        "id": 10,
+        "title": "alter-economy",
+        "animation" : "enter from the bottom",
+        "class": "small-left",
+        "description": "Alter Economy Logo. Designed in Adobe Photoshop",
+        "thumb": "./images/assets/thumbs/alter_economy.jpg",
+        "image": "./images/assets/alter_economy.jpg",
+        "item": "Alter Economy",
+        "category": "logos",
+        "prev": {
+            "item": "Poradek",
+            "icon": "./images/assets/thumbs/poradek.png",
+            "title": "poradek"
+        },
+        "next": {
+            "item": "Spaargids.be",
+            "icon": "./images/assets/thumbs/spaargids.jpg",
+            "title": "spaargids"
+        }
+    }, {
+        "id": 11,
+        "title": "spaargids",
+        "animation" : "enter left",
+        "class": "small-left",
+        "description": "Spaargids.be. Website html5, css2, sass, jquery",
+        "thumb": "./images/assets/thumbs/spaargids.jpg",
+        "image": "./images/assets/spaargids.jpg",
+        "item": "Spaargids.be",
+        "category": "webistes",
+        "prev": {
+            "item": "Alter Economy",
+            "icon": "./images/assets/thumbs/alter_economy.jpg",
+            "title": "alter-economy"
+        },
+        "next": {
+            "item": "JAPA Parts",
+            "icon": "./images/assets/thumbs/japaparts.jpg",
+            "title": "japa-parts"
+        }
+    }, {
+        "id": 12,
+        "title": "japa-parts",
+        "animation" : "enter right",
+        "class": "small-left",
+        "description": "JAPA Parts.  Designed in Adobe Photoshop, Illustrator and InDesign",
+        "thumb": "./images/assets/thumbs/japaparts.jpg",
+        "image": "./images/assets/japaparts.jpg",
+        "item": "JAPA Parts",
+        "category": "brochures",
+        "prev": {
+            "item": "Spaargids.be",
+            "icon": "./images/assets/thumbs/spaargids.jpg",
+            "title": "spaargids"
+        },
+        "next": {
+            "item": "Kuba Jurewicz",
+            "icon": "./images/assets/thumbs/kuba-jurewicz.jpg",
+            "title": "kuba-jurewicz"
+        }
+    }, {
+        "id": 13,
+        "title": "kuba-jurewicz",
+        "animation" : "enter from the bottom",
+        "class": "small-left",
+        "description": "Kuba Jurewicz Business Card.  Designed in Adobe Photoshop, Illustrator and InDesign",
+        "thumb": "./images/assets/thumbs/kuba-jurewicz.jpg",
+        "image": "./images/assets/kuba-jurewicz.jpg",
+        "item": "MonaVie",
+        "category": "brochures",
+        "prev": {
+            "item": "Spaargids.be",
+            "icon": "./images/assets/thumbs/spaargids.jpg",
+            "title": "spaargids"
+        },
+        "next": {
+            "item": "Mona Vie",
+            "icon": "./images/assets/thumbs/monavie.jpg",
+            "title": "monavie"
+        }
+    }, {
+        "id": 14,
+        "title": "monavie",
+        "animation" : "enter left",
+        "class": "small-left",
+        "description": "Kuba Jurewicz Business Card.  Designed in Adobe Photoshop, Illustrator and InDesign",
+        "thumb": "./images/assets/thumbs//monavie.jpg",
+        "image": "./images/assets//monavie.jpg",
+        "item": "MonaVie",
+        "category": "brochures",
+        "prev": {
+            "item": "Kuba Jurewicz",
+            "icon": "./images/assets/thumbs/kuba-jurewicz.jpg",
+            "title": "kuba-jurewicz"
+        },
+        "next": {
+            "item": "Tanning Studio",
+            "icon": "./images/assets/thumbs/07_tri-fold_brochure_mockup.jpg",
+            "title": "tanning-studio"
+        }
+    }, {
+        "id": 15,
+        "title": "tanning-studio",
+        "animation" : "enter right",
+        "class": "small-left",
+        "description": "Tanning Studio.  Designed in Adobe Photoshop, Illustrator and InDesign",
+        "thumb": "./images/assets/thumbs/07_tri-fold_brochure_mockup.jpg",
+        "image": "./images/assets/07_tri-fold_brochure_mockup.jpg",
+        "item": "Tanning Studio",
+        "category": "brochures",
+        "prev": {
+            "item": "Mona Vie",
+            "icon": "./images/assets/thumbs/monavie.jpg",
+            "title": "monavie"
+        },
+        "next": {
+            "item": "VoytiCom",
+            "icon": "./images/assets/thumbs/08_tri-fold_brochure_mockup.jpg",
+            "title": "voyti-com"
+        }
+    }, {
+        "id": 16,
+        "title": "voyti-com",
+        "animation" : "enter from the bottom",
+        "class": "small-left",
+        "description": "VoytiCom.  Designed in Adobe Photoshop, Illustrator and InDesign",
+        "thumb": "./images/assets/thumbs/08_tri-fold_brochure_mockup.jpg",
+        "image": "./images/assets/08_tri-fold_brochure_mockup.jpg",
+        "item": "VoytiCom",
+        "category": "brochures",
+        "prev": {
+            "item": "Tanning Studio",
+            "icon": "./images/assets/thumbs/07_tri-fold_brochure_mockup.jpg",
+            "title": "tanning-studio"
+        },
+        "next": {
+            "item": "VoytiCom",
+            "icon": "./images/assets/thumbs/08_tri-fold_brochure_mockup.jpg",
+            "title": "voyti-com"
+        }
+    }
+]

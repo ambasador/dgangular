@@ -1,0 +1,20 @@
+{
+  "name": "digital-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "amd-optimize": "^0.6.1",
+    "gulp": "^3.9.1",
+    "gulp-amd-optimizer": "^0.4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-requirejs-optimize": "^1.2.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify": "^1.5.4"
+  }
+}
